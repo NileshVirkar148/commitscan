@@ -40,6 +40,6 @@ public class AvoidFilecreateTempFile extends BaseChecker {
 		codeIssuePublisher.publish(new CodeIssueModel(context.getCu().getCuFile(), node.getRange().begin.line,
 				Severity.high, "Avoid FilecreateTempFile",
 				CodeIssueNames.AVOID_FILE_CREATE_TEMP_FILE));
-		System.out.println("");
+		System.out.println(""); 
 	}
 }
